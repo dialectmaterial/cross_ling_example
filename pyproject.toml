@@ -1,0 +1,16 @@
+# [build-system]
+# requires = ["setuptools>=61.0"]
+# build-backend = "setuptools.build_meta"
+
+[project]
+name = "cross_ling_example"
+version = "0.1"
+authors = [{name="Author", email="fake_author@hum.leidenuniv.nl"}]
+description = "Vocabulary extraction tool (minimal course example project)."
+# readme = "README.md"
+requires-python = ">=3.8"
+# dependencies = ["wordcloud"]
+
+[project.scripts]
+cross_ling_example = "cross_ling_example:cli"
+
